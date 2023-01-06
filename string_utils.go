@@ -3,9 +3,9 @@ package stringutils
 import "strings"
 
 func Upper(value string) {
-	return strings.toUpper(value)
+i	return strings.ToUpper(value)
 }
 
 func Lower(value string) {
-	return strings.toLower(value)
+	return strings.ToLower(value)
 }
